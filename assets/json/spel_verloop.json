@@ -1,0 +1,409 @@
+[
+    {
+        "id": 11,
+        "name": "Snake",
+        "description": "Colonel i see the weapon disk but there is a problem. They also have the US president! How do you want me te proceed sir?",
+        "sound": "Metal_Gear_Solid_Codec_Call_Sound_Effect.wav",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "You have to stop that disk from reaching the weapon!",
+                "action": 21
+            },
+            {
+                "text": "The safety of the president must be secured!",
+                "action": 22
+            }
+       ]
+    },
+    {
+        "id": 21,
+        "name": "Colonel campbell",
+        "description": "The president is not in immediate danger. Get the disk before anything else!",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Continue",
+                "action": 31
+            }
+       ]
+    },
+
+    {
+        "id": 22,
+        "name": "Colonel campbell",
+        "description": "The disk can wait the safety of the president must be secured!",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Continue",
+                "action": 32
+            }
+       ]
+    },
+
+    {
+        "id": 31,
+        "name": "Snake",
+        "description": "Disk secured sir but, they have loaded the president on a helicopter and are flying away!",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Go back to your car and chase it!",
+                "action": 41
+            },
+            {
+                "text": "Look if you can find any plane on the base to chase it!",
+                "action": 42
+            }
+       ]
+    },
+
+    {
+        "id": 32,
+        "name": "Snake",
+        "description": "Sir, i have the president safely extracted with a fulton balloon! But the disk. They are taking it on helicopter to the weapon.",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Go back to your car and chase it!",
+                "action": 43
+            },
+            {
+                "text": "Look if you can find any plane on the base to chase it!",
+                "action": 42
+            }
+       ]
+    },
+
+    {
+        "id": 41,
+        "name": "Colonel campbell",
+        "description": "Go back to your car and chase it! And Snake, hurry up before it is to late.",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Continue",
+                "action": 51
+            }
+       ]
+    },
+
+    {
+        "id": 42,
+        "name": "Colonel campbell",
+        "description": "Search for a plane on the base to chase them!",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Continue",
+                "action": 52
+            }
+       ]
+    },
+
+    {
+        "id": 43,
+        "name": "Colonel campbell",
+        "description": "Go back to your car and chase it! And Snake, hurry up before it is to late.",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Continue",
+                "action": 53
+            }
+       ]
+    },
+
+    {
+        "id": 51,
+        "name": "Snake",
+        "description": "I followed the helicopter to its destination. I see soldiers clearing the ground so it can land. Sir, how do you want me to proceed.",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Use the rpg in that is in the back of the car.",
+                "action": 62
+            },
+            {
+                "text": "Wait for it to land, then do everything you can to rescue the president.",
+                "action": 61
+            }
+       ]
+    },
+
+    {
+        "id": 52,
+        "name": "Snake",
+        "description": "I found a plane, i must open the hanger door to . . . argh . . . they found me . . . Sir, i don't think i will. . . . . . . . AAaAAgHH. . . . . . . . .",
+        "sound": "Metal_Gear_Solid_Game_Over_Sound_Effect.wav",
+        "failed": true,
+        "fail_description": "Mission failed, Snake got caught!",
+        "success": false,
+        "success_description": null,
+        "rank": "F-",
+        "options": []
+    },
+
+    {
+        "id": 53,
+        "name": "Snake",
+        "description": "I followed the helicopter to its destination. I see soldiers clearing the ground so it can land.  . . . sir, . . . if that disk is in the weapon, ALL WILL BE LOST. How do you want me to proceed.",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Use the rpg in that is in the back of the car.",
+                "action": 63
+            },
+            {
+                "text": "Wait for it to land, then do everything you can to take it!",
+                "action": 64
+            }
+       ]
+    },
+
+    {
+        "id": 61,
+        "name": "Colonel campbell",
+        "description": "Wait for the helicopter to land, then do everything you can to rescue the president!",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Continue",
+                "action": 71
+            }
+       ]
+    },
+
+    {
+        "id": 62,
+        "name": "Colonel campbell",
+        "description": "We can not let the USSR have him! In the back of your car is a RPG, use it BLOW UP THAT HELICOPTER! ",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Continue",
+                "action": 72
+            }
+       ]
+    },
+
+    {
+        "id": 63,
+        "name": "Colonel campbell",
+        "description": "We have NO TIME TO LOSE! in the back of your car is a RPG, use it BLOW UP THAT HELICOPTER! We Cannot let the USSR complete that weapon. The world is in your hands now Snake, . . . don't miss.",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Continue",
+                "action": 73
+            }
+       ]
+    },
+
+    {
+        "id": 64,
+        "name": "Colonel campbell",
+        "description": "Wait for the helicopter to land, i want you to take the disk. Snake, i know this is a big risk but that disk is simply to valuable to ignore.",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Continue",
+                "action": 74
+            }
+       ]
+    },
+
+    {
+        "id": 71,
+        "name": "Snake",
+        "description": "I see them unloading the president out the helicopter! should i til its dark for a tactical advantage. Or go in now and shoot all the gaurds?",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Wait til nightfall, it will be easier if they cant spot you.",
+                "action": 81
+            },
+            {
+                "text": "Go in now! we don't know what will happen if we wait to long.",
+                "action": 82
+            }
+       ]
+    },
+
+    {
+        "id": 72,
+        "name": "Snake",
+        "description": "I got the helicopter! but what becomes of USA now that it no longer has a president?",
+        "sound": "Metal_Gear_Solid_Game_Over_Sound_Effect.wav",
+        "failed": true,
+        "fail_description": "Mission failed, The president died!",
+        "success": false,
+        "success_description": null,
+        "rank": "D-",
+        "options": []
+    },
+
+    {
+        "id": 73,
+        "name": "Snake",
+        "description": "Sir, i hit the helicopter. There is no way anything has survived in there. All objectives completed sir, shall i return to base?",
+        "sound": "MISSION COMPLETE, AND HOW!.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": true,
+        "success_description": "Mission success, good job Colonel!",
+        "rank": "S+",
+        "options": []
+    },
+
+    {
+        "id": 74,
+        "name": "Snake",
+        "description": "I’m to late, the disk is in the weapon! I will try to destroy the weapon before thy get the chance to use it. Do you have any intel on where i can find a C4 to . . . argh . . . they found me . . . Sir, i don't think i will. . . . . . . . AAaAAgHH. . . . . . . . .",
+        "sound": "Metal_Gear_Solid_Game_Over_Sound_Effect.wav",
+        "failed": true,
+        "fail_description": "Mission failed, Snake got caught!",
+        "success": false,
+        "success_description": null,
+        "rank": "F-",
+        "options": []
+    },
+
+    {
+        "id": 81,
+        "name": "Colonel campbell",
+        "description": "Wait til nightfall, it will be easier if they cant spot you.",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Continue",
+                "action": 91
+            }
+       ]
+    },
+
+    {
+        "id": 82,
+        "name": "Colonel campbell",
+        "description": "Go in now! we don't know what will happen if we wait to long.",
+        "sound": "morse-code-131798.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "Continue",
+                "action": 92
+            }
+       ]
+    },
+
+    {
+        "id": 91,
+        "name": "Snake",
+        "description": "I went tru the whole base but didn't find the president. They must have moved him while i waited till dark. Without any intel on where he went i cannot continue the mission, i’m returning to base.",
+        "sound": "Metal_Gear_Solid_Game_Over_Sound_Effect.wav",
+        "failed": true,
+        "fail_description": "Mission failed, you lost the president!",
+        "success": false,
+        "success_description": null,
+        "rank": "C-",
+        "options": []
+    },
+
+    {
+        "id": 92,
+        "name": "Snake",
+        "description": "all the guards are eliminated, securing the president now! all objectives completed, returning to base.",
+        "sound": "MISSION COMPLETE, AND HOW!.mp3",
+        "failed": false,
+        "fail_description": null,
+        "success": true,
+        "success_description": "Mission success, good job Colonel!",
+        "rank": "S+",
+        "options": []
+    }
+
+]

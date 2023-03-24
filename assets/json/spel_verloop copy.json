@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "name": "",
+        "description": "",
+        "sound": null,
+        "failed": false,
+        "fail_description": null,
+        "success": false,
+        "success_description": null,
+        "rank": null,
+        "options": [
+            {
+                "text": "",
+                "action": 2
+            }
+        ]
+    }
+]
